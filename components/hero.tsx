@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import heroImg from "@/public/phonedoc.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -19,11 +20,13 @@ export default function Hero() {
               transforming healthcare across Nigeria and Sub-Saharan Africa.
             </p>
             <div>
-              <Button variant="hero" className="w-[100px] bg-[#2E7EF7]">Sign Up</Button>
-              <Button
-                variant="outline"
-                className="mx-10 w-[100px] text-[#2E7EF7] border border-[#2E7EF7]"
-              >
+              <Link href="/register">
+                <Button variant="hero" className="w-[100px] bg-[#2E7EF7]">Sign Up</Button>
+              </Link>
+                <Button
+                  variant="outline"
+                  className="mx-10 w-[100px] text-[#2E7EF7] border border-[#2E7EF7]"
+                >
                 Log in
               </Button>
             </div>
