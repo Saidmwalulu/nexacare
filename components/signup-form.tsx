@@ -9,8 +9,6 @@ import {
   FieldSeparator,
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
-import Image from "next/image"
-import placeholder from "@/public/placeholder.svg"
 
 export function SignupForm({
   className,
@@ -99,8 +97,8 @@ export function SignupForm({
             </FieldGroup>
           </form>
           <div className="bg-muted relative hidden md:block">
-            <Image
-              src={placeholder}
+            <img
+              src="/placeholder.svg"
               alt="Image"
               className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
             />
