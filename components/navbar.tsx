@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import { Menu, Search, X } from "lucide-react";
 import Image from "next/image";
 import logo from "@/public/nexacarelogo.png"
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,9 +63,11 @@ export default function Navbar() {
             >
               About Us
             </button>
-            <Button onClick={() => scrollToSection("get-started")} variant="hero" size="default" className="bg-[#2E7EF7]">
-              Get Started
-            </Button>
+            <Link href="/register">
+              <Button onClick={() => scrollToSection("get-started")} variant="hero" size="default" className="bg-[#2E7EF7]">
+                Get Started
+              </Button>
+            </Link>
             <button className="text-foreground hover:text-primary transition-colors">
               <Search className="h-5 w-5" />
             </button>
@@ -93,9 +96,11 @@ export default function Navbar() {
             >
               About Us
             </button>
-            <Button onClick={() => scrollToSection("get-started")} variant="default" size="default" className="w-full bg-[#2E7EF7]">
-              Get Started
-            </Button>
+            <Link href="/register">
+              <Button onClick={() => scrollToSection("get-started")} variant="default" size="default" className="w-full bg-[#2E7EF7]">
+                Get Started
+              </Button>
+            </Link>
             <button className="w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2 flex items-center gap-2">
               <Search className="h-5 w-5" />
               Search
