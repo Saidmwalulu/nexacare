@@ -3,6 +3,7 @@ import {LayoutDashboard,BookA,Video} from "lucide-react";
 export default function Features() {
   return (
     <section
+      id="features"
       className="relative bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${banner.src})` }}
     >

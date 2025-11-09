@@ -58,7 +58,7 @@ export default function Navbar() {
               Features
             </button>
             <button
-              onClick={() => scrollToSection("about")}
+              onClick={() => scrollToSection("about-us")}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
               About Us
@@ -91,7 +91,7 @@ export default function Navbar() {
               Features
             </button>
             <button
-              onClick={() => scrollToSection("about")}
+              onClick={() => scrollToSection("about-us")}
               className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2"
             >
               About Us

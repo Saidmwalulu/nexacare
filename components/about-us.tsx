@@ -12,7 +12,7 @@ import { Button } from "./ui/button";
 
 export default function Footer() {
   return (
-    <section className="px-6 md:px-[60px] text-white bg-[#2E7EF7]">
+    <section id="about-us" className="px-6 md:px-[60px] text-white bg-[#2E7EF7]">
       {/* Title */}
       <div className="py-6 text-2xl md:text-3xl text-center md:text-left">Login</div>
 
