@@ -1,4 +1,5 @@
 import banner from "@/public/banner.jpg";
+import {LayoutDashboard,BookA,Video} from "lucide-react";
 export default function Features() {
   return (
     <section
@@ -9,7 +10,9 @@ export default function Features() {
       <div className="relative container mx-auto px-4 py-[90px]">
         <div className="grid lg:grid-cols-3 gap-12 items-center">
           <div className="text-center">
-            <div>Tele Icon</div>
+            <div className="flex justify-center mb-4">
+              <Video size={35} className="text-blue-500" />
+            </div>
             <span className="text-xl font-semibold">Telemedicine</span>
             <p className="text-center">
               Remote doctor consultations via secure video and audio connections
@@ -17,7 +20,9 @@ export default function Features() {
           </div>
 
           <div className="text-center">
-            <div>Hlth Icon</div>
+            <div className="flex justify-center mb-4">
+              <BookA size={35} className="text-blue-500" />
+            </div>
             <span className="text-xl font-semibold">Health Education</span>
             <p className="text-center">
               Localize verified health contents via mobile platforms
@@ -25,7 +30,9 @@ export default function Features() {
           </div>
 
           <div className="text-center">
-            <div>Dash Icon</div>
+            <div className="flex justify-center mb-4">
+              <LayoutDashboard size={35} className="text-blue-500" />
+            </div>
             <span className="text-xl font-semibold">Dashboard</span>
             <p className="text-center">
               Electronic health record system for clinics to manage patient data
