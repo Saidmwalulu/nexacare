@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center pt-16 bg-linear-to-b from-muted/30 to-background px-[60px]"
+      className="min-h-screen flex items-center justify-center pt-16 bg-linear-to-b from-muted/30 to-background md:px-[60px]"
     >
       <div className="container mx-auto px-4 py-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">

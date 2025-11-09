@@ -33,7 +33,7 @@ export default function Navbar() {
           : "bg-transparent backdrop-blur-sm"
       }`}
     >
-      <div className="container mx-auto px-[50px]">
+      <div className="container mx-auto px-[17px] md:px-[50px]">
         <div className="flex items-center justify-between h-16">
           <div
             className="flex items-center gap-2 cursor-pointer"
